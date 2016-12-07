@@ -27,6 +27,9 @@ TARGET_CPU_VARIANT := cortex-a53
 
 TARGET_CPU_CORTEX_A53 := true
 
+# Hardware
+BOARD_HARDWARE_CLASS := device/google/shamrock/cmhw
+ 
 # Platform
 TARGET_BOARD_PLATFORM := msm8952
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno405

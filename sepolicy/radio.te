@@ -1,1 +1,5 @@
 allow radio system_app_data_file:dir getattr;
+ # text relocation in /system/vendor/lib/libvdmengine.so
+allow radio system_file:file execmod;
+
+allow radio system_app_data_file:dir search;
